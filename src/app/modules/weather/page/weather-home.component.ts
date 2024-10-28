@@ -11,7 +11,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 })
 export class WeatherHomeComponent implements OnInit, OnDestroy {
   private readonly destroy$: Subject<void> = new Subject();
-  city = 'São Paulo';
+  city = 'Brasília';
   weatherDatas!: WeatherDatasInterface;
   searchIcon = faMagnifyingGlass;
 
