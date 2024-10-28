@@ -167,3 +167,21 @@ fa-icon {
 .search-icon {
   margin-left: 1em;
 }
+
+.no-css-btn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.animations-4s {
+  --fa-animation-duration: 4s;
+}

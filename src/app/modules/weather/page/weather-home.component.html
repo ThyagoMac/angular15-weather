@@ -1,1 +1,19 @@
-<p>Pipi</p>
+<div class="search">
+  <form #form="ngForm" (submit)="onUpdateCity()">
+    <input
+      type="text"
+      name="city"
+      [(ngModel)]="city"
+      placeholder="City Name"
+      required
+    />
+    <button type="submit" class="no-css-btn">
+      <fa-icon
+        animation="fade"
+        size="lg"
+        class="search-icon pointer animations-4s"
+        [icon]="searchIcon"
+      ></fa-icon>
+    </button>
+  </form>
+</div>
