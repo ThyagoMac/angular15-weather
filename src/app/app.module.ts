@@ -9,9 +9,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { WeatherHomeComponent } from './modules/weather/page/weather-home.component';
 import { WeatherCardComponent } from './modules/weather/weather-card/weather-card.component';
+import { WeatherCardInfoBlockComponent } from './modules/weather/weather-card/weather-card-info-block/weather-card-info-block.component';
 
 @NgModule({
-  declarations: [AppComponent, WeatherHomeComponent, WeatherCardComponent],
+  declarations: [
+    AppComponent,
+    WeatherHomeComponent,
+    WeatherCardComponent,
+    WeatherCardInfoBlockComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
